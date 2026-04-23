@@ -1,0 +1,37 @@
+/.docs
+
+# Simulation artifacts
+/work
+/modelsim.ini
+/transcript
+*.wlf
+vsim.wlf
+
+# Logs and output directories
+/logs
+/coverage
+/out_*
+!/logs/run.log
+
+
+# Build artifacts
+/build
+
+# Local files
+/current_state.txt
+
+# Generated assembly tests from riscv-dv
+/RISC-V/riscv-dv/asm_test
+
+# Python cache
+__pycache__/
+*.pyc
+
+seeds.txt
+
+.env
+
+formal_proof/model
+# SymbiYosys formal verification workspace
+formal_proof/pc_x0/
+formal_proof/*.log
